@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trinh Nam Khanh - Computer Engineering Student & AI Enthusiast</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#3B82F6',secondary:'#8B5CF6'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+.hero-bg {
+background-image: url('https://readdy.ai/api/search-image?query=Clean%20modern%20tech%20workspace%20with%20soft%20gradient%20background%2C%20minimalist%20computer%20engineering%20environment%2C%20subtle%20AI%20elements%2C%20gentle%20blue%20and%20white%20color%20palette%2C%20contemporary%20professional%20design%2C%20bright%20natural%20lighting%2C%20elegant%20typography%20friendly%20background%2C%20sophisticated%20tech%20atmosphere&width=1920&height=800&seq=hero002&orientation=landscape');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+</style>
+</head>
+<body class="bg-white">
+<!-- Header Navigation -->
+<header class="bg-white shadow-sm sticky top-0 z-50">
+<nav class="px-6 py-4">
+<div class="flex items-center justify-between">
+<div class="font-['Pacifico'] text-2xl text-primary">Trinh Nam Khanh</div>
+<div class="hidden md:flex items-center space-x-8">
+<a href="#home" class="text-gray-700 hover:text-primary transition-colors">Trang chủ</a>
+<a href="#about" class="text-gray-700 hover:text-primary transition-colors">Giới thiệu</a>
+<a href="#awards" class="text-gray-700 hover:text-primary transition-colors">Giải thưởng</a>
+<a href="#education" class="text-gray-700 hover:text-primary transition-colors">Học tập</a>
+<a href="#social-work" class="text-gray-700 hover:text-primary transition-colors">Hoạt động</a>
+<a href="#projects" class="text-gray-700 hover:text-primary transition-colors">Dự án</a>
+<a href="#blog" class="text-gray-700 hover:text-primary transition-colors">Blog</a>
+<a href="#contact" class="text-gray-700 hover:text-primary transition-colors">Liên hệ</a>
+</div>
+<div class="flex items-center space-x-4">
+<button class="language-toggle px-3 py-1 text-sm border border-gray-300 rounded-button hover:bg-gray-50 transition-colors whitespace-nowrap">
+<span class="w-4 h-4 flex items-center justify-center mr-1 inline-flex">
+<i class="ri-global-line text-sm"></i>
+</span>
+VI/EN
+</button>
+<button class="md:hidden mobile-menu-toggle w-8 h-8 flex items-center justify-center">
+<i class="ri-menu-line text-xl"></i>
+</button>
+</div>
+</div>
+</nav>
+</header>
+<!-- Hero Section -->
+<section id="home" class="hero-bg relative min-h-screen flex items-center">
+<div class="absolute inset-0 bg-gradient-to-r from-white/90 via-white/70 to-transparent"></div>
+<div class="relative w-full px-6 py-16">
+<div class="max-w-7xl mx-auto">
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+<div class="space-y-8">
+<div class="space-y-6">
+<h1 class="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight">
+Trinh Nam Khanh
+</h1>
+<p class="text-lg lg:text-xl xl:text-2xl text-primary font-semibold">
+Mathematics Student & AI Enthusiast
+</p>
+<p class="text-base lg:text-lg text-gray-600 leading-relaxed max-w-2xl">
+Học sinh lớp 12 chuyên Toán tại trường THPT chuyên Hà Nội - Amsterdam, đam mê lập trình và công nghệ AI. Tôi luôn tìm kiếm cơ hội để áp dụng kiến thức toán học vào việc phát triển các giải pháp công nghệ sáng tạo.
+</p>
+</div>
+<div class="flex flex-wrap gap-4">
+<button class="px-8 py-4 bg-primary text-white rounded-button hover:bg-blue-600 transition-colors !rounded-button whitespace-nowrap text-base font-medium">
+<span class="w-5 h-5 flex items-center justify-center mr-2 inline-flex">
+<i class="ri-download-line"></i>
+</span>
+Tải CV
+</button>
+<button class="px-8 py-4 border border-primary text-primary rounded-button hover:bg-primary hover:text-white transition-colors !rounded-button whitespace-nowrap text-base font-medium">
+<span class="w-5 h-5 flex items-center justify-center mr-2 inline-flex">
+<i class="ri-mail-line"></i>
+</span>
+Liên hệ
+</button>
+</div>
+</div>
+<div class="lg:flex justify-end">
+<div class="relative">
+<div class="w-72 h-72 lg:w-80 lg:h-80 xl:w-96 xl:h-96 rounded-3xl overflow-hidden shadow-2xl bg-gradient-to-br from-primary/20 to-secondary/20 p-2">
+<div class="w-full h-full rounded-2xl overflow-hidden bg-white">
+<img src="https://static.readdy.ai/image/463e20087823e41977ed319075af2fbf/fd4f6857ba8a1b8d599fc82b755fc2aa.png" alt="Trinh Nam Khanh" class="w-full h-full object-cover object-top">
+</div>
+</div>
+<div class="absolute -top-2 -right-2 w-6 h-6 bg-green-500 rounded-full border-4 border-white shadow-lg"></div>
+<div class="absolute -bottom-4 -left-4 w-16 h-16 bg-primary/10 rounded-full blur-xl"></div>
+<div class="absolute -top-6 -left-6 w-12 h-12 bg-secondary/10 rounded-full blur-lg"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Quick Stats -->
+<section class="py-20 bg-gray-50">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-12">
+<div class="text-center">
+<div class="w-20 h-20 flex items-center justify-center bg-primary text-white rounded-2xl mx-auto mb-6">
+<i class="ri-graduation-cap-line ri-2x"></i>
+</div>
+<div class="text-4xl font-bold text-gray-900 mb-3">3+</div>
+<div class="text-lg text-gray-600">Năm học tập</div>
+</div>
+<div class="text-center">
+<div class="w-20 h-20 flex items-center justify-center bg-secondary text-white rounded-2xl mx-auto mb-6">
+<i class="ri-code-box-line ri-2x"></i>
+</div>
+<div class="text-4xl font-bold text-gray-900 mb-3">15+</div>
+<div class="text-lg text-gray-600">Dự án hoàn thành</div>
+</div>
+<div class="text-center">
+<div class="w-20 h-20 flex items-center justify-center bg-primary text-white rounded-2xl mx-auto mb-6">
+<i class="ri-tools-line ri-2x"></i>
+</div>
+<div class="text-4xl font-bold text-gray-900 mb-3">8+</div>
+<div class="text-lg text-gray-600">Kỹ năng lập trình</div>
+</div>
+<div class="text-center">
+<div class="w-20 h-20 flex items-center justify-center bg-secondary text-white rounded-2xl mx-auto mb-6">
+<i class="ri-trophy-line ri-2x"></i>
+</div>
+<div class="text-4xl font-bold text-gray-900 mb-3">3.8</div>
+<div class="text-lg text-gray-600">GPA</div>
+</div>
+</div>
+</div>
+</section>
+<!-- About Me -->
+<section id="about" class="py-24">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-20">
+<h2 class="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-6">Giới thiệu về tôi</h2>
+<p class="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">
+Hành trình du học và đam mê với công nghệ AI
+</p>
+</div>
+<div class="grid lg:grid-cols-2 gap-20 items-center">
+<div class="space-y-8">
+<p class="text-base lg:text-lg text-gray-700 leading-relaxed">
+Tôi là Trịnh Nam Khánh, hiện đang là học sinh lớp 12 chuyên Toán tại trường THPT chuyên Hà Nội - Amsterdam. Với niềm đam mê công nghệ từ nhỏ, tôi đã chọn chuyên ngành Toán học để củng cố tư duy logic và kỹ năng giải quyết vấn đề - những nền tảng quan trọng cho lập trình và khoa học máy tính.
+</p>
+<p class="text-base lg:text-lg text-gray-700 leading-relaxed">
+Trong suốt quá trình học tập, tôi đã tự học và tham gia nhiều dự án về lập trình, AI và Machine Learning. Đặc biệt đam mê với các ứng dụng AI trong đời sống thực tế, tôi luôn tìm cách áp dụng kiến thức toán học vào việc phát triển các giải pháp công nghệ sáng tạo.
+</p>
+<p class="text-base lg:text-lg text-gray-700 leading-relaxed">
+Ngoài học tập, tôi tích cực tham gia các cuộc thi khoa học công nghệ, hackathon và phát triển các dự án cá nhân để không ngừng trau dồi kỹ năng lập trình và mở rộng hiểu biết về AI technology.
+</p>
+</div>
+<div class="space-y-8">
+<h3 class="text-2xl lg:text-3xl font-bold text-gray-900 mb-8">Kỹ năng kỹ thuật</h3>
+<div class="space-y-6">
+<div class="skill-item">
+<div class="flex justify-between mb-3">
+<span class="text-gray-700 font-medium text-base lg:text-lg">Python</span>
+<span class="text-gray-600 text-base">95%</span>
+</div>
+<div class="w-full bg-gray-200 rounded-full h-3">
+<div class="bg-primary h-3 rounded-full" style="width: 95%"></div>
+</div>
+</div>
+<div class="skill-item">
+<div class="flex justify-between mb-3">
+<span class="text-gray-700 font-medium text-base lg:text-lg">TensorFlow / PyTorch</span>
+<span class="text-gray-600 text-base">90%</span>
+</div>
+<div class="w-full bg-gray-200 rounded-full h-3">
+<div class="bg-primary h-3 rounded-full" style="width: 90%"></div>
+</div>
+</div>
+<div class="skill-item">
+<div class="flex justify-between mb-3">
+<span class="text-gray-700 font-medium text-base lg:text-lg">Java</span>
+<span class="text-gray-600 text-base">85%</span>
+</div>
+<div class="w-full bg-gray-200 rounded-full h-3">
+<div class="bg-secondary h-3 rounded-full" style="width: 85%"></div>
+</div>
+</div>
+<div class="skill-item">
+<div class="flex justify-between mb-3">
+<span class="text-gray-700 font-medium text-base lg:text-lg">JavaScript / React</span>
+<span class="text-gray-600 text-base">80%</span>
+</div>
+<div class="w-full bg-gray-200 rounded-full h-3">
+<div class="bg-secondary h-3 rounded-full" style="width: 80%"></div>
+</div>
+</div>
+<div class="skill-item">
+<div class="flex justify-between mb-3">
+<span class="text-gray-700 font-medium text-base lg:text-lg">SQL / MongoDB</span>
+<span class="text-gray-600 text-base">75%</span>
+</div>
+<div class="w-full bg-gray-200 rounded-full h-3">
+<div class="bg-primary h-3 rounded-full" style="width: 75%"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Honors & Awards -->
+<section id="awards" class="py-24">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-20">
+<h2 class="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-6">Giải thưởng & Danh hiệu</h2>
+<p class="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">
+Những thành tích nổi bật trong học tập và nghiên cứu
+</p>
+</div>
+<div class="grid md:grid-cols-2 gap-10">
+<div class="bg-gradient-to-br from-yellow-50 to-orange-50 p-10 rounded-xl border border-yellow-200">
+<div class="flex items-start space-x-6">
+<div class="w-20 h-20 flex items-center justify-center bg-gradient-to-br from-yellow-400 to-orange-400 text-white rounded-2xl flex-shrink-0">
+<i class="ri-trophy-fill ri-3x"></i>
+</div>
+<div>
+<h3 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">Huy chương Vàng AIGC 2025</h3>
+<p class="text-base lg:text-lg text-gray-700 mb-4">"Detecting Diabetes Using Machine Learning Through Image Retinography"</p>
+<p class="text-gray-600 text-sm lg:text-base">Giải thưởng cao nhất tại cuộc thi AI và Machine Learning quốc tế</p>
+</div>
+</div>
+</div>
+<div class="bg-gradient-to-br from-yellow-50 to-orange-50 p-10 rounded-xl border border-yellow-200">
+<div class="flex items-start space-x-6">
+<div class="w-20 h-20 flex items-center justify-center bg-gradient-to-br from-yellow-400 to-orange-400 text-white rounded-2xl flex-shrink-0">
+<i class="ri-trophy-fill ri-3x"></i>
+</div>
+<div>
+<h3 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">Huy chương Vàng WICO 2025</h3>
+<p class="text-base lg:text-lg text-gray-700 mb-4">"AI-Activated Robotic Arm"</p>
+<p class="text-gray-600 text-sm lg:text-base">Cuộc thi Robotics và AI ứng dụng cấp quốc tế</p>
+</div>
+</div>
+</div>
+<div class="bg-gradient-to-br from-yellow-50 to-orange-50 p-10 rounded-xl border border-yellow-200">
+<div class="flex items-start space-x-6">
+<div class="w-20 h-20 flex items-center justify-center bg-gradient-to-br from-yellow-400 to-orange-400 text-white rounded-2xl flex-shrink-0">
+<i class="ri-trophy-fill ri-3x"></i>
+</div>
+<div>
+<h3 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">Huy chương Vàng INNOVA 2025</h3>
+<p class="text-base lg:text-lg text-gray-700 mb-4">"AI-based Railway Safety Monitoring System"</p>
+<p class="text-gray-600 text-sm lg:text-base">Cuộc thi đổi mới sáng tạo công nghệ cấp quốc tế</p>
+</div>
+</div>
+</div>
+<div class="bg-gradient-to-br from-blue-50 to-purple-50 p-10 rounded-xl border border-blue-200">
+<div class="flex items-start space-x-6">
+<div class="w-20 h-20 flex items-center justify-center bg-gradient-to-br from-blue-400 to-purple-400 text-white rounded-2xl flex-shrink-0">
+<i class="ri-medal-line ri-3x"></i>
+</div>
+<div>
+<h3 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">Giải Ba Học sinh giỏi Toán</h3>
+<p class="text-base lg:text-lg text-gray-700 mb-4">Cuộc thi Học sinh giỏi Toán lớp 9 cấp Thành phố</p>
+<p class="text-gray-600 text-sm lg:text-base">Thành tích xuất sắc trong môn Toán học cấp THCS</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Education Journey -->
+<section id="education" class="py-20 bg-gray-50">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Hành trình học tập</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+Những mốc quan trọng trong quá trình phát triển học thuật
+</p>
+</div>
+<div class="relative">
+<div class="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-primary"></div>
+<div class="space-y-12">
+<div class="flex items-center">
+<div class="w-1/2 pr-8 text-right">
+<div class="bg-white p-6 rounded-xl shadow-lg">
+<div class="w-12 h-12 flex items-center justify-center bg-primary text-white rounded-full ml-auto mb-4">
+<i class="ri-school-line ri-lg"></i>
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-2">2019 - 2022</h3>
+<h4 class="text-lg font-semibold text-primary mb-2">11 Mathematics Hanoi-Amsterdam High School for the Gifted</h4>
+<p class="text-gray-600">Chuyên ngành Toán học. Lớp 10 GPA: 9.5, Lớp 11 GPA: 9.7. IELTS: 7.5, SAT: 1530.</p>
+</div>
+</div>
+<div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-primary rounded-full"></div>
+<div class="w-1/2 pl-8"></div>
+</div>
+<div class="flex items-center">
+<div class="w-1/2 pr-8"></div>
+<div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-secondary rounded-full"></div>
+<div class="w-1/2 pl-8">
+<div class="bg-white p-6 rounded-xl shadow-lg">
+<div class="w-12 h-12 flex items-center justify-center bg-secondary text-white rounded-full mb-4">
+<i class="ri-flight-takeoff-line ri-lg"></i>
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-2">2022</h3>
+<h4 class="text-lg font-semibold text-secondary mb-2">Du học Singapore</h4>
+<p class="text-gray-600">Nhận học bổng Merit Scholarship từ Đại học Công nghệ Singapore. Bắt đầu hành trình du học với chuyên ngành Computer Engineering.</p>
+</div>
+</div>
+</div>
+<div class="flex items-center">
+<div class="w-1/2 pr-8 text-right">
+<div class="bg-white p-6 rounded-xl shadow-lg">
+<div class="w-12 h-12 flex items-center justify-center bg-primary text-white rounded-full ml-auto mb-4">
+<i class="ri-graduation-cap-line ri-lg"></i>
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-2">2022 - 2026</h3>
+<h4 class="text-lg font-semibold text-primary mb-2">Đại học Công nghệ Singapore</h4>
+<p class="text-gray-600">Đang theo học chuyên ngành Computer Engineering với GPA 3.8/4.0. Tập trung vào AI, Machine Learning và Computer Vision.</p>
+</div>
+</div>
+<div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-primary rounded-full"></div>
+<div class="w-1/2 pl-8"></div>
+</div>
+<div class="flex items-center">
+<div class="w-1/2 pr-8"></div>
+<div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-secondary rounded-full"></div>
+<div class="w-1/2 pl-8">
+<div class="bg-white p-6 rounded-xl shadow-lg">
+<div class="w-12 h-12 flex items-center justify-center bg-secondary text-white rounded-full mb-4">
+<i class="ri-award-line ri-lg"></i>
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-2">2024</h3>
+<h4 class="text-lg font-semibold text-secondary mb-2">Chứng chỉ chuyên môn</h4>
+<p class="text-gray-600">Hoàn thành khóa học Deep Learning Specialization (Coursera), AWS Machine Learning Certification và Google Cloud AI Certificate.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Research Experience -->
+<section id="research" class="py-20">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Kinh nghiệm nghiên cứu & Sản phẩm cá nhân</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+Các nghiên cứu và sản phẩm độc lập trong lĩnh vực AI và Machine Learning
+</p>
+</div>
+<div class="bg-white rounded-xl shadow-lg p-8 mb-12">
+<div class="flex items-start space-x-6">
+<div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-primary to-secondary text-white rounded-xl flex-shrink-0">
+<i class="ri-research-line ri-2x"></i>
+</div>
+<div class="flex-1">
+<h3 class="text-2xl font-bold text-gray-900 mb-3">Application of Machine Learning Algorithms in Prediction of Hotel Booking Cancellation</h3>
+<p class="text-gray-600 mb-4">Nghiên cứu ứng dụng các thuật toán Machine Learning để dự đoán tình trạng hủy đặt phòng khách sạn, góp phần tối ưu hóa doanh thu và quản lý tài nguyên trong ngành du lịch.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full">Machine Learning</span>
+<span class="px-3 py-1 bg-secondary/10 text-secondary text-sm rounded-full">Predictive Analytics</span>
+<span class="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full">Data Science</span>
+<span class="px-3 py-1 bg-secondary/10 text-secondary text-sm rounded-full">Hospitality Industry</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Leadership Experience -->
+<section id="leadership" class="py-20 bg-gray-50">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Kinh nghiệm lãnh đạo</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+Các vị trí lãnh đạo và hoạt động tổ chức
+</p>
+</div>
+<div class="bg-white rounded-xl shadow-lg p-8 text-center">
+<div class="w-16 h-16 flex items-center justify-center bg-gray-100 text-gray-400 rounded-xl mx-auto mb-4">
+<i class="ri-team-line ri-2x"></i>
+</div>
+<p class="text-gray-600 text-lg">Hiện tại chưa có kinh nghiệm lãnh đạo chính thức. Đang tập trung vào việc phát triển kỹ năng kỹ thuật và tìm kiếm cơ hội tham gia các hoạt động nhóm và dự án collaborative.</p>
+</div>
+</div>
+</section>
+<!-- Social Work & Activities -->
+<section id="social-work" class="py-24">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-20">
+<h2 class="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-6">Hoạt động xã hội & Tham gia</h2>
+<p class="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">
+Các hoạt động cộng đồng, câu lạc bộ và dự án giáo dục
+</p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-xl border border-blue-200 hover:shadow-lg transition-shadow">
+<div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-blue-400 to-indigo-400 text-white rounded-2xl mb-6">
+<i class="ri-lightbulb-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Tiptoe Project 2024</h3>
+<p class="text-gray-600 mb-4">Thành viên Ban Hậu cần, tham gia tổ chức và hỗ trợ logistics cho dự án giáo dục sáng tạo.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-blue-100 text-blue-700 text-sm rounded-full">Logistics</span>
+<span class="px-3 py-1 bg-indigo-100 text-indigo-700 text-sm rounded-full">Education</span>
+</div>
+</div>
+<div class="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-xl border border-green-200 hover:shadow-lg transition-shadow">
+<div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-green-400 to-emerald-400 text-white rounded-2xl mb-6">
+<i class="ri-book-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Curriculum Development</h3>
+<p class="text-gray-600 mb-4">Tham gia biên soạn giáo trình "Some Topics on Inequalities" cho học sinh chuyên Toán.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-green-100 text-green-700 text-sm rounded-full">Mathematics</span>
+<span class="px-3 py-1 bg-emerald-100 text-emerald-700 text-sm rounded-full">Curriculum</span>
+</div>
+</div>
+<div class="bg-gradient-to-br from-purple-50 to-violet-50 p-8 rounded-xl border border-purple-200 hover:shadow-lg transition-shadow">
+<div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-purple-400 to-violet-400 text-white rounded-2xl mb-6">
+<i class="ri-user-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Math Tutoring</h3>
+<p class="text-gray-600 mb-4">Tham gia giảng dạy tại trung tâm toán nổi tiếng Hà Nội, hỗ trợ học sinh ôn thi chuyên Toán.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-purple-100 text-purple-700 text-sm rounded-full">Teaching</span>
+<span class="px-3 py-1 bg-violet-100 text-violet-700 text-sm rounded-full">Tutoring</span>
+</div>
+</div>
+<div class="bg-gradient-to-br from-orange-50 to-red-50 p-8 rounded-xl border border-orange-200 hover:shadow-lg transition-shadow">
+<div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-orange-400 to-red-400 text-white rounded-2xl mb-6">
+<i class="ri-chess-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Ams Chess Academy</h3>
+<p class="text-gray-600 mb-4">Thành viên Ban Chuyên môn, phụ trách tổ chức các giải đấu và hoạt động đào tạo cờ vua.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-orange-100 text-orange-700 text-sm rounded-full">Chess</span>
+<span class="px-3 py-1 bg-red-100 text-red-700 text-sm rounded-full">Expertise</span>
+</div>
+</div>
+<div class="bg-gradient-to-br from-teal-50 to-cyan-50 p-8 rounded-xl border border-teal-200 hover:shadow-lg transition-shadow">
+<div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-teal-400 to-cyan-400 text-white rounded-2xl mb-6">
+<i class="ri-flask-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Society of Open Science 2024</h3>
+<p class="text-gray-600 mb-4">Thành viên Ban Hậu cần, hỗ trợ tổ chức các hoạt động khoa học mở và workshop công nghệ.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-teal-100 text-teal-700 text-sm rounded-full">Science</span>
+<span class="px-3 py-1 bg-cyan-100 text-cyan-700 text-sm rounded-full">Open Source</span>
+</div>
+</div>
+<div class="bg-gradient-to-br from-indigo-50 to-purple-50 p-8 rounded-xl border border-indigo-200 hover:shadow-lg transition-shadow">
+<div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-indigo-400 to-purple-400 text-white rounded-2xl mb-6">
+<i class="ri-planet-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Amstronomy 2024</h3>
+<p class="text-gray-600 mb-4">Thành viên Ban Hậu cần câu lạc bộ thiên văn học, tổ chức các hoạt động quan sát thiên thể.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-indigo-100 text-indigo-700 text-sm rounded-full">Astronomy</span>
+<span class="px-3 py-1 bg-purple-100 text-purple-700 text-sm rounded-full">Logistics</span>
+</div>
+</div>
+<div class="bg-gradient-to-br from-pink-50 to-rose-50 p-8 rounded-xl border border-pink-200 hover:shadow-lg transition-shadow">
+<div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-pink-400 to-rose-400 text-white rounded-2xl mb-6">
+<i class="ri-gallery-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Amstro's Gallery Event</h3>
+<p class="text-gray-600 mb-4">Thành viên tổ chức sự kiện triển lãm nghệ thuật và khoa học, kết hợp giữa thiên văn học và nghệ thuật thị giác.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-pink-100 text-pink-700 text-sm rounded-full">Art & Science</span>
+<span class="px-3 py-1 bg-rose-100 text-rose-700 text-sm rounded-full">Exhibition</span>
+</div>
+</div>
+<div class="bg-gradient-to-br from-amber-50 to-yellow-50 p-8 rounded-xl border border-amber-200 hover:shadow-lg transition-shadow">
+<div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-amber-400 to-yellow-400 text-white rounded-2xl mb-6">
+<i class="ri-heart-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Volunteer Campaign 2025</h3>
+<p class="text-gray-600 mb-4">Tham gia chiến dịch tình nguyện tại xã Chế Tạo, Lào Cai, hỗ trợ cộng đồng dân tộc thiểu số với các hoạt động chăm sóc sức khỏe.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-amber-100 text-amber-700 text-sm rounded-full">Healthcare</span>
+<span class="px-3 py-1 bg-yellow-100 text-yellow-700 text-sm rounded-full">Community Service</span>
+</div>
+</div>
+<div class="bg-gradient-to-br from-emerald-50 to-teal-50 p-8 rounded-xl border border-emerald-200 hover:shadow-lg transition-shadow">
+<div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-emerald-400 to-teal-400 text-white rounded-2xl mb-6">
+<i class="ri-hand-heart-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Ethnic Minority Outreach</h3>
+<p class="text-gray-600 mb-4">Thăm hỏi các gia đình, phát thuốc và gói chăm sóc, kiểm tra tình trạng sức khỏe và nâng cao nhận thức về y tế công cộng.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-emerald-100 text-emerald-700 text-sm rounded-full">Public Health</span>
+<span class="px-3 py-1 bg-teal-100 text-teal-700 text-sm rounded-full">Outreach</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Personal Projects -->
+<section id="projects" class="py-24">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-20">
+<h2 class="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-6">Dự án cá nhân</h2>
+<p class="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">
+Các dự án độc lập và sáng tạo cá nhân
+</p>
+</div>
+<div class="grid md:grid-cols-2 gap-16 items-center mb-20">
+<div class="order-2 md:order-1">
+<div class="bg-gradient-to-br from-green-50 to-blue-50 p-10 rounded-2xl border border-green-200">
+<div class="flex items-center space-x-6 mb-8">
+<div class="w-20 h-20 flex items-center justify-center bg-gradient-to-br from-green-400 to-blue-400 text-white rounded-2xl">
+<i class="ri-leaf-line ri-3x"></i>
+</div>
+<div>
+<h3 class="text-2xl lg:text-3xl font-bold text-gray-900">Air Sentinel</h3>
+<p class="text-lg text-gray-600">Air Quality Monitoring System</p>
+</div>
+</div>
+<p class="text-base lg:text-lg text-gray-700 mb-8 leading-relaxed">
+Hệ thống giám sát chất lượng không khí tích hợp với ứng dụng theo dõi thông minh. Dự án độc lập sử dụng IoT sensors, Machine Learning để phân tích dữ liệu môi trường và cung cấp cảnh báo real-time cho người dùng.
+</p>
+<div class="flex flex-wrap gap-3 mb-8">
+<span class="px-4 py-2 bg-green-100 text-green-700 text-sm lg:text-base rounded-full">IoT</span>
+<span class="px-4 py-2 bg-blue-100 text-blue-700 text-sm lg:text-base rounded-full">Machine Learning</span>
+<span class="px-4 py-2 bg-green-100 text-green-700 text-sm lg:text-base rounded-full">React Native</span>
+<span class="px-4 py-2 bg-blue-100 text-blue-700 text-sm lg:text-base rounded-full">Python</span>
+<span class="px-4 py-2 bg-green-100 text-green-700 text-sm lg:text-base rounded-full">Environmental Tech</span>
+</div>
+<div class="space-y-4">
+<div class="flex items-center text-gray-700">
+<span class="w-6 h-6 flex items-center justify-center mr-4">
+<i class="ri-check-line text-green-600 text-lg"></i>
+</span>
+<span class="text-base lg:text-lg">Real-time air quality monitoring</span>
+</div>
+<div class="flex items-center text-gray-700">
+<span class="w-6 h-6 flex items-center justify-center mr-4">
+<i class="ri-check-line text-green-600 text-lg"></i>
+</span>
+<span class="text-base lg:text-lg">Smart mobile application integration</span>
+</div>
+<div class="flex items-center text-gray-700">
+<span class="w-6 h-6 flex items-center justify-center mr-4">
+<i class="ri-check-line text-green-600 text-lg"></i>
+</span>
+<span class="text-base lg:text-lg">Predictive analytics for air quality trends</span>
+</div>
+</div>
+</div>
+</div>
+<div class="order-1 md:order-2">
+<div class="h-96 lg:h-[28rem] rounded-2xl overflow-hidden shadow-xl">
+<img src="https://readdy.ai/api/search-image?query=Smart%20environmental%20monitoring%20system%20with%20IoT%20sensors%20measuring%20air%20quality%2C%20modern%20mobile%20app%20interface%20showing%20air%20pollution%20data%20charts%2C%20clean%20green%20and%20blue%20interface%20design%2C%20environmental%20technology%20dashboard%2C%20real-time%20monitoring%20visualization%2C%20sustainable%20technology%20concept&width=500&height=400&seq=airsentinel001&orientation=landscape" alt="Air Sentinel System" class="w-full h-full object-cover object-top">
+</div>
+</div>
+</div>
+<div class="text-center mb-16">
+<h3 class="text-3xl font-bold text-gray-900 mb-4">Dự án nổi bật khác</h3>
+<p class="text-lg text-gray-600 max-w-2xl mx-auto">
+Các dự án AI và Machine Learning tiêu biểu đã thực hiện
+</p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+<div class="h-48 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=Computer%20vision%20medical%20image%20analysis%20system%20interface%20showing%20X-ray%20scan%20with%20AI%20detection%20highlights%2C%20modern%20medical%20software%20dashboard%2C%20clean%20blue%20and%20white%20interface%2C%20professional%20healthcare%20technology%2C%20diagnostic%20visualization%20tools&width=400&height=250&seq=project001&orientation=landscape" alt="AI Medical Diagnosis" class="w-full h-full object-cover object-top">
+</div>
+<div class="p-6">
+<h3 class="text-xl font-bold text-gray-900 mb-3">AI Medical Diagnosis System</h3>
+<p class="text-gray-600 mb-4">Hệ thống chẩn đoán y tế sử dụng Computer Vision để phát hiện bệnh lý từ hình ảnh X-ray với độ chính xác 94%.</p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full">Python</span>
+<span class="px-3 py-1 bg-secondary/10 text-secondary text-sm rounded-full">TensorFlow</span>
+<span class="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full">OpenCV</span>
+</div>
+<button class="flex items-center text-primary hover:text-blue-600 font-medium !rounded-button whitespace-nowrap">
+Xem chi tiết
+<span class="w-4 h-4 flex items-center justify-center ml-2">
+<i class="ri-arrow-right-line"></i>
+</span>
+</button>
+</div>
+</div>
+<div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+<div class="h-48 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=Natural%20language%20processing%20chatbot%20interface%20with%20Vietnamese%20text%20conversation%2C%20modern%20chat%20application%20design%2C%20AI%20assistant%20interface%2C%20clean%20messaging%20layout%2C%20blue%20and%20white%20color%20scheme%2C%20professional%20NLP%20technology&width=400&height=250&seq=project002&orientation=landscape" alt="Vietnamese NLP Chatbot" class="w-full h-full object-cover object-top">
+</div>
+<div class="p-6">
+<h3 class="text-xl font-bold text-gray-900 mb-3">Vietnamese NLP Chatbot</h3>
+<p class="text-gray-600 mb-4">Chatbot thông minh hỗ trợ tiếng Việt sử dụng Transformer và BERT, có khả năng hiểu ngữ cảnh và trả lời tự nhiên.</p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full">Python</span>
+<span class="px-3 py-1 bg-secondary/10 text-secondary text-sm rounded-full">BERT</span>
+<span class="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full">FastAPI</span>
+</div>
+<button class="flex items-center text-primary hover:text-blue-600 font-medium !rounded-button whitespace-nowrap">
+Xem chi tiết
+<span class="w-4 h-4 flex items-center justify-center ml-2">
+<i class="ri-arrow-right-line"></i>
+</span>
+</button>
+</div>
+</div>
+<div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+<div class="h-48 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=Smart%20traffic%20management%20system%20dashboard%20showing%20real-time%20traffic%20monitoring%2C%20IoT%20sensors%20data%20visualization%2C%20city%20traffic%20flow%20analytics%2C%20modern%20urban%20technology%20interface%2C%20green%20and%20blue%20color%20scheme%2C%20intelligent%20transportation%20system&width=400&height=250&seq=project003&orientation=landscape" alt="Smart Traffic System" class="w-full h-full object-cover object-top">
+</div>
+<div class="p-6">
+<h3 class="text-xl font-bold text-gray-900 mb-3">Smart Traffic Management</h3>
+<p class="text-gray-600 mb-4">Hệ thống quản lý giao thông thông minh sử dụng IoT và AI để tối ưu hóa luồng giao thông đô thị.</p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full">IoT</span>
+<span class="px-3 py-1 bg-secondary/10 text-secondary text-sm rounded-full">Machine Learning</span>
+<span class="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full">React</span>
+</div>
+<button class="flex items-center text-primary hover:text-blue-600 font-medium !rounded-button whitespace-nowrap">
+Xem chi tiết
+<span class="w-4 h-4 flex items-center justify-center ml-2">
+<i class="ri-arrow-right-line"></i>
+</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Blog Preview -->
+<section id="blog" class="py-20 bg-gray-50">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Blog & Bài viết</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+Chia sẻ kiến thức và kinh nghiệm về AI, học tập và du học
+</p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+<article class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+<div class="h-48 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=Deep%20learning%20neural%20network%20visualization%20with%20colorful%20nodes%20and%20connections%2C%20artificial%20intelligence%20concept%20illustration%2C%20modern%20tech%20background%2C%20blue%20and%20purple%20gradient%2C%20educational%20AI%20content%2C%20professional%20technology%20design&width=400&height=250&seq=blog001&orientation=landscape" alt="Deep Learning Guide" class="w-full h-full object-cover object-top">
+</div>
+<div class="p-6">
+<div class="flex items-center text-sm text-gray-500 mb-3">
+<span class="w-4 h-4 flex items-center justify-center mr-2">
+<i class="ri-calendar-line"></i>
+</span>
+15 Tháng 10, 2024
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Hướng dẫn Deep Learning cho người mới bắt đầu</h3>
+<p class="text-gray-600 mb-4">Tổng quan về Deep Learning, các khái niệm cơ bản và cách bắt đầu học tập hiệu quả trong lĩnh vực này.</p>
+<button class="flex items-center text-primary hover:text-blue-600 font-medium !rounded-button whitespace-nowrap">
+Đọc thêm
+<span class="w-4 h-4 flex items-center justify-center ml-2">
+<i class="ri-arrow-right-line"></i>
+</span>
+</button>
+</div>
+</article>
+<article class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+<div class="h-48 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=Singapore%20university%20campus%20with%20modern%20architecture%2C%20international%20students%20studying%2C%20multicultural%20education%20environment%2C%20bright%20natural%20lighting%2C%20contemporary%20academic%20buildings%2C%20study%20abroad%20lifestyle%2C%20clean%20modern%20design&width=400&height=250&seq=blog002&orientation=landscape" alt="Study Abroad Singapore" class="w-full h-full object-cover object-top">
+</div>
+<div class="p-6">
+<div class="flex items-center text-sm text-gray-500 mb-3">
+<span class="w-4 h-4 flex items-center justify-center mr-2">
+<i class="ri-calendar-line"></i>
+</span>
+8 Tháng 10, 2024
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Kinh nghiệm du học Singapore - Những điều cần biết</h3>
+<p class="text-gray-600 mb-4">Chia sẻ kinh nghiệm thực tế về cuộc sống, học tập và hòa nhập văn hóa khi du học tại Singapore.</p>
+<button class="flex items-center text-primary hover:text-blue-600 font-medium !rounded-button whitespace-nowrap">
+Đọc thêm
+<span class="w-4 h-4 flex items-center justify-center ml-2">
+<i class="ri-arrow-right-line"></i>
+</span>
+</button>
+</div>
+</article>
+<article class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+<div class="h-48 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=Computer%20vision%20applications%20in%20real%20world%2C%20AI%20technology%20analyzing%20images%2C%20machine%20learning%20visual%20recognition%2C%20modern%20tech%20interface%2C%20futuristic%20AI%20visualization%2C%20professional%20technology%20concept%2C%20blue%20and%20white%20design&width=400&height=250&seq=blog003&orientation=landscape" alt="Computer Vision Applications" class="w-full h-full object-cover object-top">
+</div>
+<div class="p-6">
+<div class="flex items-center text-sm text-gray-500 mb-3">
+<span class="w-4 h-4 flex items-center justify-center mr-2">
+<i class="ri-calendar-line"></i>
+</span>
+1 Tháng 10, 2024
+</div>
+<h3 class="text-xl font-bold text-gray-900 mb-3">Ứng dụng Computer Vision trong đời sống thực tế</h3>
+<p class="text-gray-600 mb-4">Khám phá các ứng dụng thực tế của Computer Vision trong y tế, giao thông và công nghiệp.</p>
+<button class="flex items-center text-primary hover:text-blue-600 font-medium !rounded-button whitespace-nowrap">
+Đọc thêm
+<span class="w-4 h-4 flex items-center justify-center ml-2">
+<i class="ri-arrow-right-line"></i>
+</span>
+</button>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Contact & Social -->
+<section id="contact" class="py-20">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Liên hệ với tôi</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+Hãy kết nối để thảo luận về các cơ hội hợp tác và dự án thú vị
+</p>
+</div>
+<div class="grid lg:grid-cols-2 gap-16">
+<div class="space-y-8">
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 flex items-center justify-center bg-primary text-white rounded-xl flex-shrink-0">
+<i class="ri-mail-line ri-lg"></i>
+</div>
+<div>
+<h3 class="text-lg font-semibold text-gray-900 mb-2">Email</h3>
+<p class="text-gray-600">namkhanh.trinh@student.nus.edu.sg</p>
+<p class="text-gray-600">trinhnamkhanh.ai@gmail.com</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 flex items-center justify-center bg-secondary text-white rounded-xl flex-shrink-0">
+<i class="ri-linkedin-fill ri-lg"></i>
+</div>
+<div>
+<h3 class="text-lg font-semibold text-gray-900 mb-2">LinkedIn</h3>
+<p class="text-gray-600">linkedin.com/in/trinh-nam-khanh</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 flex items-center justify-center bg-primary text-white rounded-xl flex-shrink-0">
+<i class="ri-github-fill ri-lg"></i>
+</div>
+<div>
+<h3 class="text-lg font-semibold text-gray-900 mb-2">GitHub</h3>
+<p class="text-gray-600">github.com/namkhanh-trinh</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 flex items-center justify-center bg-secondary text-white rounded-xl flex-shrink-0">
+<i class="ri-map-pin-line ri-lg"></i>
+</div>
+<div>
+<h3 class="text-lg font-semibold text-gray-900 mb-2">Vị trí</h3>
+<p class="text-gray-600">Singapore</p>
+</div>
+</div>
+</div>
+<div class="bg-gray-50 p-8 rounded-xl">
+<h3 class="text-2xl font-bold text-gray-900 mb-6">Gửi tin nhắn</h3>
+<form class="space-y-6">
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">Họ và tên</label>
+<input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent text-sm" placeholder="Nhập họ và tên">
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+<input type="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent text-sm" placeholder="Nhập email của bạn">
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">Tin nhắn</label>
+<textarea rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent text-sm" placeholder="Nhập tin nhắn của bạn"></textarea>
+</div>
+<button type="submit" class="w-full bg-primary text-white py-3 px-6 rounded-lg hover:bg-blue-600 transition-colors font-medium !rounded-button whitespace-nowrap">
+Gửi tin nhắn
+</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-gray-900 text-white py-12">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row justify-between items-center">
+<div class="mb-6 md:mb-0">
+<div class="font-['Pacifico'] text-2xl mb-2">Trinh Nam Khanh</div>
+<p class="text-gray-400">Computer Engineering Student & AI Enthusiast</p>
+</div>
+<div class="flex space-x-6">
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors">
+<i class="ri-linkedin-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors">
+<i class="ri-github-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors">
+<i class="ri-twitter-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors">
+<i class="ri-instagram-fill"></i>
+</a>
+</div>
+</div>
+<div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+<p>&copy; 2024 Trinh Nam Khanh. Tất cả quyền được bảo lưu.</p>
+</div>
+</div>
+</footer>
+<script id="mobile-menu-script">
+document.addEventListener('DOMContentLoaded', function() {
+const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+const navigation = document.querySelector('nav');
+if (mobileMenuToggle) {
+mobileMenuToggle.addEventListener('click', function() {
+const menuItems = navigation.querySelector('.hidden.md\\:flex');
+if (menuItems) {
+menuItems.classList.toggle('hidden');
+menuItems.classList.toggle('flex');
+menuItems.classList.toggle('flex-col');
+menuItems.classList.toggle('absolute');
+menuItems.classList.toggle('top-full');
+menuItems.classList.toggle('left-0');
+menuItems.classList.toggle('w-full');
+menuItems.classList.toggle('bg-white');
+menuItems.classList.toggle('shadow-lg');
+menuItems.classList.toggle('p-4');
+menuItems.classList.toggle('space-x-0');
+menuItems.classList.toggle('space-y-4');
+}
+});
+}
+});
+</script>
+<script id="smooth-scroll-script">
+document.addEventListener('DOMContentLoaded', function() {
+const links = document.querySelectorAll('a[href^="#"]');
+links.forEach(link => {
+link.addEventListener('click', function(e) {
+e.preventDefault();
+const targetId = this.getAttribute('href');
+const targetElement = document.querySelector(targetId);
+if (targetElement) {
+targetElement.scrollIntoView({
+behavior: 'smooth',
+block: 'start'
+});
+}
+});
+});
+});
+</script>
+<script id="language-toggle-script">
+document.addEventListener('DOMContentLoaded', function() {
+const languageToggle = document.querySelector('.language-toggle');
+let isVietnamese = true;
+if (languageToggle) {
+languageToggle.addEventListener('click', function() {
+isVietnamese = !isVietnamese;
+const buttonText = languageToggle.querySelector('span:last-child');
+if (buttonText) {
+buttonText.textContent = isVietnamese ? 'VI/EN' : 'EN/VI';
+}
+});
+}
+});
+</script>
+</body>
+</html>
