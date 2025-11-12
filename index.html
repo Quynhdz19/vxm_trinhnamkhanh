@@ -27,13 +27,13 @@ background-repeat: no-repeat;
 <div class="flex items-center justify-between">
 <div class="font-['Pacifico'] text-2xl text-primary">Trinh Nam Khanh</div>
 <div class="hidden md:flex items-center space-x-8">
-<a href="#home" class="text-gray-700 hover:text-primary transition-colors">Trang chủ</a>
-<a href="#about" class="text-gray-700 hover:text-primary transition-colors">Giới thiệu</a>
-<a href="#awards" class="text-gray-700 hover:text-primary transition-colors">Giải thưởng</a>
-<a href="#education" class="text-gray-700 hover:text-primary transition-colors">Học tập</a>
-<a href="#social-work" class="text-gray-700 hover:text-primary transition-colors">Hoạt động</a>
-<a href="#projects" class="text-gray-700 hover:text-primary transition-colors">Dự án</a>
-<a href="#contact" class="text-gray-700 hover:text-primary transition-colors">Liên hệ</a>
+<a href="#home" class="text-gray-700 hover:text-primary transition-colors" data-translate="nav-home">Trang chủ</a>
+<a href="#about" class="text-gray-700 hover:text-primary transition-colors" data-translate="nav-about">Giới thiệu</a>
+<a href="#awards" class="text-gray-700 hover:text-primary transition-colors" data-translate="nav-awards">Giải thưởng</a>
+<a href="#education" class="text-gray-700 hover:text-primary transition-colors" data-translate="nav-education">Học tập</a>
+<a href="#social-work" class="text-gray-700 hover:text-primary transition-colors" data-translate="nav-activities">Hoạt động</a>
+<a href="#projects" class="text-gray-700 hover:text-primary transition-colors" data-translate="nav-projects">Dự án</a>
+<a href="#contact" class="text-gray-700 hover:text-primary transition-colors" data-translate="nav-contact">Liên hệ</a>
 </div>
 <div class="flex items-center space-x-4">
 <button class="language-toggle px-3 py-1 text-sm border border-gray-300 rounded-button hover:bg-gray-50 transition-colors whitespace-nowrap">
@@ -57,13 +57,13 @@ VI/EN
 <div class="grid lg:grid-cols-2 gap-16 items-center">
 <div class="space-y-8">
 <div class="space-y-6">
-<h1 class="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight">
+<h1 class="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight" data-translate="hero-title">
 Trinh Nam Khanh
 </h1>
-<p class="text-lg lg:text-xl xl:text-2xl text-primary font-semibold">
+<p class="text-lg lg:text-xl xl:text-2xl text-primary font-semibold" data-translate="hero-subtitle">
 Mathematics Student & AI Enthusiast
 </p>
-<p class="text-base lg:text-lg text-gray-600 leading-relaxed max-w-2xl">
+<p class="text-base lg:text-lg text-gray-600 leading-relaxed max-w-2xl" data-translate="hero-description">
 Học sinh lớp 12 chuyên Toán tại trường THPT chuyên Hà Nội - Amsterdam, đam mê lập trình và công nghệ AI. Tôi luôn tìm kiếm cơ hội để áp dụng kiến thức toán học vào việc phát triển các giải pháp công nghệ sáng tạo.
 </p>
 </div>
@@ -78,7 +78,7 @@ Học sinh lớp 12 chuyên Toán tại trường THPT chuyên Hà Nội - Amste
 <span class="w-5 h-5 flex items-center justify-center mr-2 inline-flex">
 <i class="ri-mail-line"></i>
 </span>
-Liên hệ
+<span data-translate="hero-contact">Liên hệ</span>
 </button>
 </div>
 </div>
@@ -107,28 +107,28 @@ Liên hệ
 <i class="ri-graduation-cap-line ri-2x"></i>
 </div>
 <div class="text-4xl font-bold text-gray-900 mb-3">3+</div>
-<div class="text-lg text-gray-600">Năm học tập</div>
+<div class="text-lg text-gray-600" data-translate="stats-years">Năm học tập</div>
 </div>
 <div class="text-center">
 <div class="w-20 h-20 flex items-center justify-center bg-secondary text-white rounded-2xl mx-auto mb-6">
 <i class="ri-code-box-line ri-2x"></i>
 </div>
 <div class="text-4xl font-bold text-gray-900 mb-3">15+</div>
-<div class="text-lg text-gray-600">Dự án hoàn thành</div>
+<div class="text-lg text-gray-600" data-translate="stats-projects">Dự án hoàn thành</div>
 </div>
 <div class="text-center">
 <div class="w-20 h-20 flex items-center justify-center bg-primary text-white rounded-2xl mx-auto mb-6">
 <i class="ri-tools-line ri-2x"></i>
 </div>
 <div class="text-4xl font-bold text-gray-900 mb-3">8+</div>
-<div class="text-lg text-gray-600">Kỹ năng lập trình</div>
+<div class="text-lg text-gray-600" data-translate="stats-skills">Kỹ năng lập trình</div>
 </div>
 <div class="text-center">
 <div class="w-20 h-20 flex items-center justify-center bg-secondary text-white rounded-2xl mx-auto mb-6">
 <i class="ri-trophy-line ri-2x"></i>
 </div>
-<div class="text-4xl font-bold text-gray-900 mb-3">3.8</div>
-<div class="text-lg text-gray-600">GPA</div>
+<div class="text-4xl font-bold text-gray-900 mb-3">9+</div>
+<div class="text-lg text-gray-600" data-translate="stats-gpa">GPA</div>
 </div>
 </div>
 </div>
@@ -137,25 +137,25 @@ Liên hệ
 <section id="about" class="py-24">
 <div class="max-w-7xl mx-auto px-6">
 <div class="text-center mb-20">
-<h2 class="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-6">Giới thiệu về tôi</h2>
-<p class="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">
+<h2 class="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-6" data-translate="about-title">Giới thiệu về tôi</h2>
+<p class="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto" data-translate="about-subtitle">
 Hành trình du học và đam mê với công nghệ AI
 </p>
 </div>
 <div class="grid lg:grid-cols-2 gap-20 items-center">
 <div class="space-y-8">
-<p class="text-base lg:text-lg text-gray-700 leading-relaxed">
+<p class="text-base lg:text-lg text-gray-700 leading-relaxed" data-translate="about-p1">
 Tôi là Trịnh Nam Khánh, hiện đang là học sinh lớp 12 chuyên Toán tại trường THPT chuyên Hà Nội - Amsterdam. Với niềm đam mê công nghệ từ nhỏ, tôi đã chọn chuyên ngành Toán học để củng cố tư duy logic và kỹ năng giải quyết vấn đề - những nền tảng quan trọng cho lập trình và khoa học máy tính.
 </p>
-<p class="text-base lg:text-lg text-gray-700 leading-relaxed">
+<p class="text-base lg:text-lg text-gray-700 leading-relaxed" data-translate="about-p2">
 Trong suốt quá trình học tập, tôi đã tự học và tham gia nhiều dự án về lập trình, AI và Machine Learning. Đặc biệt đam mê với các ứng dụng AI trong đời sống thực tế, tôi luôn tìm cách áp dụng kiến thức toán học vào việc phát triển các giải pháp công nghệ sáng tạo.
 </p>
-<p class="text-base lg:text-lg text-gray-700 leading-relaxed">
+<p class="text-base lg:text-lg text-gray-700 leading-relaxed" data-translate="about-p3">
 Ngoài học tập, tôi tích cực tham gia các cuộc thi khoa học công nghệ, hackathon và phát triển các dự án cá nhân để không ngừng trau dồi kỹ năng lập trình và mở rộng hiểu biết về AI technology.
 </p>
 </div>
 <div class="space-y-8">
-<h3 class="text-2xl lg:text-3xl font-bold text-gray-900 mb-8">Kỹ năng kỹ thuật</h3>
+<h3 class="text-2xl lg:text-3xl font-bold text-gray-900 mb-8" data-translate="about-skills-title">Kỹ năng kỹ thuật</h3>
 <div class="space-y-6">
 <div class="skill-item">
 <div class="flex justify-between mb-3">
@@ -212,8 +212,8 @@ Ngoài học tập, tôi tích cực tham gia các cuộc thi khoa học công n
 <section id="education" class="py-20 bg-gray-50">
 <div class="max-w-4xl mx-auto px-6">
 <div class="text-center mb-16">
-<h2 class="text-4xl font-bold text-gray-900 mb-4">Hành trình học tập</h2>
-<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+<h2 class="text-4xl font-bold text-gray-900 mb-4" data-translate="education-title">Hành trình học tập</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto" data-translate="education-subtitle">
 Những mốc quan trọng trong quá trình phát triển học thuật
 </p>
 </div>
@@ -222,44 +222,45 @@ Những mốc quan trọng trong quá trình phát triển học thuật
 <div class="w-16 h-16 flex items-center justify-center bg-primary text-white rounded-2xl mr-6">
 <i class="ri-graduation-cap-line ri-2x"></i>
 </div>
-<h3 class="text-2xl font-bold text-gray-900">Học vấn</h3>
+<h3 class="text-2xl font-bold text-gray-900" data-translate="education-section-title">Học vấn</h3>
 </div>
 <div class="border-l-4 border-gray-200 pl-8 ml-8">
 <div class="mb-12">
-<h4 class="text-xl font-bold text-gray-900 mb-2">Hanoi-Amsterdam High School for the Gifted</h4>
-<p class="text-gray-600 text-lg mb-6">2019 - 2026</p>
+<h4 class="text-xl font-bold text-gray-900 mb-2" data-translate="education-school">Hanoi-Amsterdam High School for the Gifted</h4>
+<p class="text-gray-600 text-lg mb-6" data-translate="education-period">2019 - 2026</p>
 <div class="grid md:grid-cols-2 gap-8">
 <div>
-<h5 class="text-lg font-semibold text-gray-800 mb-4">Điểm trung bình</h5>
+<h5 class="text-lg font-semibold text-gray-800 mb-4" data-translate="education-gpa-title">Điểm trung bình</h5>
 <div class="space-y-3">
 <div class="flex items-center">
 <div class="w-3 h-3 bg-primary rounded-full mr-4"></div>
-<span class="text-gray-700">Điểm trung bình lớp 9: <span class="font-semibold text-primary">9.3</span></span>
+<span class="text-gray-700"><span data-translate="education-gpa-9">Điểm trung bình lớp 9:</span> <span class="font-semibold text-primary">9.3</span></span>
 </div>
 <div class="flex items-center">
 <div class="w-3 h-3 bg-primary rounded-full mr-4"></div>
-<span class="text-gray-700">Điểm trung bình lớp 10: <span class="font-semibold text-primary">9.5</span></span>
+<span class="text-gray-700"><span data-translate="education-gpa-10">Điểm trung bình lớp 10:</span> <span class="font-semibold text-primary">9.5</span></span>
 </div>
 <div class="flex items-center">
 <div class="w-3 h-3 bg-primary rounded-full mr-4"></div>
-<span class="text-gray-700">Điểm trung bình lớp 11: <span class="font-semibold text-primary">9.7</span></span>
+<span class="text-gray-700"><span data-translate="education-gpa-11">Điểm trung bình lớp 11:</span> <span class="font-semibold text-primary">9.7</span></span>
 </div>
 </div>
 </div>
 <div>
-<h5 class="text-lg font-semibold text-gray-800 mb-4">Chứng chỉ quốc tế</h5>
+<h5 class="text-lg font-semibold text-gray-800 mb-4" data-translate="education-cert-title">Chứng chỉ quốc tế</h5>
 <div class="space-y-3">
 <div class="flex items-center">
 <div class="w-3 h-3 bg-secondary rounded-full mr-4"></div>
-<span class="text-gray-700">IELTS: <span class="font-semibold text-secondary">7.5</span> (L:8.0 | R:9.0 | S:6.5 | W:7.0)</span>
+<span class="text-gray-700"><span data-translate="education-ielts">IELTS:</span> <span class="font-semibold text-secondary">7.5</span> (L:8.0 | R:9.0 | S:6.5 | W:7.0)</span>
 </div>
 <div class="flex items-center">
 <div class="w-3 h-3 bg-secondary rounded-full mr-4"></div>
-<span class="text-gray-700">SAT: <span class="font-semibold text-secondary">1530</span> (Verbal:770 | Math:760)</span>
+<span class="text-gray-700"><span data-translate="education-sat">SAT:</span> <span class="font-semibold text-secondary">1530</span> (Verbal:770 | Math:760)</span>
 </div>
 <div class="flex items-center">
 <div class="w-3 h-3 bg-secondary rounded-full mr-4"></div>
-<span class="text-gray-700">SAT Superscore: <span class="font-semibold text-secondary">1570</span></span>
+<span class="text-gray-700"><span data-translate="education-sat-superscore">SAT Superscore:</span> <span class="font-semibold text-secondary">1570</span></span>
+</div>
 </div>
 </div>
 </div>
@@ -273,8 +274,8 @@ Những mốc quan trọng trong quá trình phát triển học thuật
 <section id="research" class="py-20">
 <div class="max-w-7xl mx-auto px-6">
 <div class="text-center mb-16">
-<h2 class="text-4xl font-bold text-gray-900 mb-4">Kinh nghiệm nghiên cứu & Sản phẩm cá nhân</h2>
-<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+<h2 class="text-4xl font-bold text-gray-900 mb-4" data-translate="research-title">Kinh nghiệm nghiên cứu & Sản phẩm cá nhân</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto" data-translate="research-subtitle">
 Các nghiên cứu và sản phẩm độc lập trong lĩnh vực AI và Machine Learning
 </p>
 </div>
@@ -284,8 +285,8 @@ Các nghiên cứu và sản phẩm độc lập trong lĩnh vực AI và Machin
 <i class="ri-research-line ri-2x"></i>
 </div>
 <div class="flex-1">
-<h3 class="text-2xl font-bold text-gray-900 mb-3">Application of Machine Learning Algorithms in Prediction of Hotel Booking Cancellation</h3>
-<p class="text-gray-600 mb-4">Nghiên cứu ứng dụng các thuật toán Machine Learning để dự đoán tình trạng hủy đặt phòng khách sạn, góp phần tối ưu hóa doanh thu và quản lý tài nguyên trong ngành du lịch.</p>
+<h3 class="text-2xl font-bold text-gray-900 mb-3" data-translate="research-title-paper">Application of Machine Learning Algorithms in Prediction of Hotel Booking Cancellation</h3>
+<p class="text-gray-600 mb-4" data-translate="research-desc-paper">Nghiên cứu ứng dụng các thuật toán Machine Learning để dự đoán tình trạng hủy đặt phòng khách sạn, góp phần tối ưu hóa doanh thu và quản lý tài nguyên trong ngành du lịch.</p>
 <div class="flex flex-wrap gap-2 mb-4">
 <span class="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full">Machine Learning</span>
 <span class="px-3 py-1 bg-secondary/10 text-secondary text-sm rounded-full">Predictive Analytics</span>
@@ -310,8 +311,8 @@ Xem bài báo
 <section id="leadership" class="py-20 bg-gray-50">
 <div class="max-w-7xl mx-auto px-6">
 <div class="text-center mb-16">
-<h2 class="text-4xl font-bold text-gray-900 mb-4">Kinh nghiệm lãnh đạo</h2>
-<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+<h2 class="text-4xl font-bold text-gray-900 mb-4" data-translate="leadership-title">Kinh nghiệm lãnh đạo</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto" data-translate="leadership-subtitle">
 Các vị trí lãnh đạo và hoạt động tổ chức
 </p>
 </div>
@@ -363,8 +364,8 @@ Các vị trí lãnh đạo và hoạt động tổ chức
 <section id="social-work" class="py-24">
 <div class="max-w-7xl mx-auto px-6">
 <div class="text-center mb-20">
-<h2 class="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-6">Hoạt động xã hội & Tham gia</h2>
-<p class="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">
+<h2 class="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-6" data-translate="social-title">Hoạt động xã hội & Tham gia</h2>
+<p class="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto" data-translate="social-subtitle">
 Các hoạt động cộng đồng, câu lạc bộ và dự án giáo dục
 </p>
 </div>
@@ -375,8 +376,8 @@ Các hoạt động cộng đồng, câu lạc bộ và dự án giáo dục
 <div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-blue-400 to-indigo-400 text-white rounded-2xl mb-6">
 <i class="ri-lightbulb-line ri-2x"></i>
 </div>
-<h3 class="text-xl font-bold text-gray-900 mb-3">Tiptoe Project 2024</h3>
-<p class="text-gray-600 mb-4">Thành viên Ban Hậu cần, tham gia tổ chức và hỗ trợ logistics cho dự án giáo dục sáng tạo.</p>
+<h3 class="text-xl font-bold text-gray-900 mb-3" data-translate="activity-tiptoe-title">Tiptoe Project 2024</h3>
+<p class="text-gray-600 mb-4" data-translate="activity-tiptoe-desc">Thành viên Ban Hậu cần, tham gia tổ chức và hỗ trợ logistics cho dự án giáo dục sáng tạo.</p>
 <div class="flex flex-wrap gap-2">
 <span class="px-3 py-1 bg-blue-100 text-blue-700 text-sm rounded-full">Logistics</span>
 <span class="px-3 py-1 bg-indigo-100 text-indigo-700 text-sm rounded-full">Education</span>
@@ -393,8 +394,8 @@ Các hoạt động cộng đồng, câu lạc bộ và dự án giáo dục
 <div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-green-400 to-emerald-400 text-white rounded-2xl mb-6">
 <i class="ri-book-line ri-2x"></i>
 </div>
-<h3 class="text-xl font-bold text-gray-900 mb-3">Curriculum Development</h3>
-<p class="text-gray-600 mb-4">Tham gia biên soạn giáo trình "Some Topics on Inequalities" cho học sinh chuyên Toán.</p>
+<h3 class="text-xl font-bold text-gray-900 mb-3" data-translate="activity-curriculum-title">Curriculum Development</h3>
+<p class="text-gray-600 mb-4" data-translate="activity-curriculum-desc">Tham gia biên soạn giáo trình "Some Topics on Inequalities" cho học sinh chuyên Toán.</p>
 <div class="flex flex-wrap gap-2">
 <span class="px-3 py-1 bg-green-100 text-green-700 text-sm rounded-full">Mathematics</span>
 <span class="px-3 py-1 bg-emerald-100 text-emerald-700 text-sm rounded-full">Curriculum</span>
@@ -406,8 +407,8 @@ Các hoạt động cộng đồng, câu lạc bộ và dự án giáo dục
 <div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-purple-400 to-violet-400 text-white rounded-2xl mb-6">
 <i class="ri-user-line ri-2x"></i>
 </div>
-<h3 class="text-xl font-bold text-gray-900 mb-3">Math Tutoring</h3>
-<p class="text-gray-600 mb-4">Tham gia giảng dạy tại trung tâm toán nổi tiếng Hà Nội, hỗ trợ học sinh ôn thi chuyên Toán.</p>
+<h3 class="text-xl font-bold text-gray-900 mb-3" data-translate="activity-tutoring-title">Math Tutoring</h3>
+<p class="text-gray-600 mb-4" data-translate="activity-tutoring-desc">Tham gia giảng dạy tại trung tâm toán nổi tiếng Hà Nội, hỗ trợ học sinh ôn thi chuyên Toán.</p>
 <div class="flex flex-wrap gap-2">
 <span class="px-3 py-1 bg-purple-100 text-purple-700 text-sm rounded-full">Teaching</span>
 <span class="px-3 py-1 bg-violet-100 text-violet-700 text-sm rounded-full">Tutoring</span>
@@ -426,8 +427,8 @@ Các hoạt động cộng đồng, câu lạc bộ và dự án giáo dục
 <div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-orange-400 to-red-400 text-white rounded-2xl mb-6">
 <i class="ri-chess-line ri-2x"></i>
 </div>
-<h3 class="text-xl font-bold text-gray-900 mb-3">Ams Chess Academy</h3>
-<p class="text-gray-600 mb-4">Thành viên Ban Chuyên môn, phụ trách tổ chức các giải đấu và hoạt động đào tạo cờ vua.</p>
+<h3 class="text-xl font-bold text-gray-900 mb-3" data-translate="activity-chess-title">Ams Chess Academy</h3>
+<p class="text-gray-600 mb-4" data-translate="activity-chess-desc">Thành viên Ban Chuyên môn, phụ trách tổ chức các giải đấu và hoạt động đào tạo cờ vua.</p>
 <div class="flex flex-wrap gap-2">
 <span class="px-3 py-1 bg-orange-100 text-orange-700 text-sm rounded-full">Chess</span>
 <span class="px-3 py-1 bg-red-100 text-red-700 text-sm rounded-full">Expertise</span>
@@ -446,8 +447,8 @@ Các hoạt động cộng đồng, câu lạc bộ và dự án giáo dục
 <div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-teal-400 to-cyan-400 text-white rounded-2xl mb-6">
 <i class="ri-flask-line ri-2x"></i>
 </div>
-<h3 class="text-xl font-bold text-gray-900 mb-3">Society of Open Science 2024</h3>
-<p class="text-gray-600 mb-4">Thành viên Ban Hậu cần, hỗ trợ tổ chức các hoạt động khoa học mở và workshop công nghệ.</p>
+<h3 class="text-xl font-bold text-gray-900 mb-3" data-translate="activity-science-title">Society of Open Science 2024</h3>
+<p class="text-gray-600 mb-4" data-translate="activity-science-desc">Thành viên Ban Hậu cần, hỗ trợ tổ chức các hoạt động khoa học mở và workshop công nghệ.</p>
 <div class="flex flex-wrap gap-2">
 <span class="px-3 py-1 bg-teal-100 text-teal-700 text-sm rounded-full">Science</span>
 <span class="px-3 py-1 bg-cyan-100 text-cyan-700 text-sm rounded-full">Open Source</span>
@@ -466,8 +467,8 @@ Các hoạt động cộng đồng, câu lạc bộ và dự án giáo dục
 <div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-indigo-400 to-purple-400 text-white rounded-2xl mb-6">
 <i class="ri-planet-line ri-2x"></i>
 </div>
-<h3 class="text-xl font-bold text-gray-900 mb-3">Amstronomy 2024</h3>
-<p class="text-gray-600 mb-4">Thành viên Ban Hậu cần câu lạc bộ thiên văn học, tổ chức các hoạt động quan sát thiên thể.</p>
+<h3 class="text-xl font-bold text-gray-900 mb-3" data-translate="activity-astronomy-title">Amstronomy 2024</h3>
+<p class="text-gray-600 mb-4" data-translate="activity-astronomy-desc">Thành viên Ban Hậu cần câu lạc bộ thiên văn học, tổ chức các hoạt động quan sát thiên thể.</p>
 <div class="flex flex-wrap gap-2">
 <span class="px-3 py-1 bg-indigo-100 text-indigo-700 text-sm rounded-full">Astronomy</span>
 <span class="px-3 py-1 bg-purple-100 text-purple-700 text-sm rounded-full">Logistics</span>
@@ -486,8 +487,8 @@ Các hoạt động cộng đồng, câu lạc bộ và dự án giáo dục
 <div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-pink-400 to-rose-400 text-white rounded-2xl mb-6">
 <i class="ri-gallery-line ri-2x"></i>
 </div>
-<h3 class="text-xl font-bold text-gray-900 mb-3">Amstro's Gallery Event</h3>
-<p class="text-gray-600 mb-4">Thành viên tổ chức sự kiện triển lãm nghệ thuật và khoa học, kết hợp giữa thiên văn học và nghệ thuật thị giác.</p>
+<h3 class="text-xl font-bold text-gray-900 mb-3" data-translate="activity-gallery-title">Amstro's Gallery Event</h3>
+<p class="text-gray-600 mb-4" data-translate="activity-gallery-desc">Thành viên tổ chức sự kiện triển lãm nghệ thuật và khoa học, kết hợp giữa thiên văn học và nghệ thuật thị giác.</p>
 <div class="flex flex-wrap gap-2">
 <span class="px-3 py-1 bg-pink-100 text-pink-700 text-sm rounded-full">Art & Science</span>
 <span class="px-3 py-1 bg-rose-100 text-rose-700 text-sm rounded-full">Exhibition</span>
@@ -506,8 +507,8 @@ Các hoạt động cộng đồng, câu lạc bộ và dự án giáo dục
 <div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-amber-400 to-yellow-400 text-white rounded-2xl mb-6">
 <i class="ri-heart-line ri-2x"></i>
 </div>
-<h3 class="text-xl font-bold text-gray-900 mb-3">Volunteer Campaign 2025</h3>
-<p class="text-gray-600 mb-4">Tham gia chiến dịch tình nguyện tại xã Chế Tạo, Lào Cai, hỗ trợ cộng đồng dân tộc thiểu số với các hoạt động chăm sóc sức khỏe.</p>
+<h3 class="text-xl font-bold text-gray-900 mb-3" data-translate="activity-volunteer-title">Volunteer Campaign 2025</h3>
+<p class="text-gray-600 mb-4" data-translate="activity-volunteer-desc">Tham gia chiến dịch tình nguyện tại xã Chế Tạo, Lào Cai, hỗ trợ cộng đồng dân tộc thiểu số với các hoạt động chăm sóc sức khỏe.</p>
 <div class="flex flex-wrap gap-2">
 <span class="px-3 py-1 bg-amber-100 text-amber-700 text-sm rounded-full">Healthcare</span>
 <span class="px-3 py-1 bg-yellow-100 text-yellow-700 text-sm rounded-full">Community Service</span>
@@ -524,8 +525,8 @@ Các hoạt động cộng đồng, câu lạc bộ và dự án giáo dục
 <div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-emerald-400 to-teal-400 text-white rounded-2xl mb-6">
 <i class="ri-hand-heart-line ri-2x"></i>
 </div>
-<h3 class="text-xl font-bold text-gray-900 mb-3">Ethnic Minority Outreach</h3>
-<p class="text-gray-600 mb-4">Thăm hỏi các gia đình, phát thuốc và gói chăm sóc, kiểm tra tình trạng sức khỏe và nâng cao nhận thức về y tế công cộng.</p>
+<h3 class="text-xl font-bold text-gray-900 mb-3" data-translate="activity-outreach-title">Ethnic Minority Outreach</h3>
+<p class="text-gray-600 mb-4" data-translate="activity-outreach-desc">Thăm hỏi các gia đình, phát thuốc và gói chăm sóc, kiểm tra tình trạng sức khỏe và nâng cao nhận thức về y tế công cộng.</p>
 <div class="flex flex-wrap gap-2">
 <span class="px-3 py-1 bg-emerald-100 text-emerald-700 text-sm rounded-full">Public Health</span>
 <span class="px-3 py-1 bg-teal-100 text-teal-700 text-sm rounded-full">Outreach</span>
@@ -569,8 +570,8 @@ Những khoảnh khắc đáng nhớ từ các hoạt động tình nguyện và
 <section id="projects" class="py-24">
 <div class="max-w-7xl mx-auto px-6">
 <div class="text-center mb-20">
-<h2 class="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-6">Dự án cá nhân</h2>
-<p class="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">
+<h2 class="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-6" data-translate="projects-title">Dự án cá nhân</h2>
+<p class="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto" data-translate="projects-subtitle">
 Các dự án độc lập và sáng tạo cá nhân
 </p>
 </div>
@@ -586,7 +587,7 @@ Các dự án độc lập và sáng tạo cá nhân
 <p class="text-lg text-gray-600">Air Quality Monitoring System</p>
 </div>
 </div>
-<p class="text-base lg:text-lg text-gray-700 mb-8 leading-relaxed">
+<p class="text-base lg:text-lg text-gray-700 mb-8 leading-relaxed" data-translate="project-airsentinel-desc">
 Hệ thống giám sát chất lượng không khí tích hợp với ứng dụng theo dõi thông minh. Dự án độc lập sử dụng IoT sensors, Machine Learning để phân tích dữ liệu môi trường và cung cấp cảnh báo real-time cho người dùng.
 </p>
 <div class="flex flex-wrap gap-3 mb-8">
@@ -601,19 +602,19 @@ Hệ thống giám sát chất lượng không khí tích hợp với ứng dụ
 <span class="w-6 h-6 flex items-center justify-center mr-4">
 <i class="ri-check-line text-green-600 text-lg"></i>
 </span>
-<span class="text-base lg:text-lg">Real-time air quality monitoring</span>
+<span class="text-base lg:text-lg" data-translate="project-airsentinel-feature1">Real-time air quality monitoring</span>
 </div>
 <div class="flex items-center text-gray-700">
 <span class="w-6 h-6 flex items-center justify-center mr-4">
 <i class="ri-check-line text-green-600 text-lg"></i>
 </span>
-<span class="text-base lg:text-lg">Smart mobile application integration</span>
+<span class="text-base lg:text-lg" data-translate="project-airsentinel-feature2">Smart mobile application integration</span>
 </div>
 <div class="flex items-center text-gray-700">
 <span class="w-6 h-6 flex items-center justify-center mr-4">
 <i class="ri-check-line text-green-600 text-lg"></i>
 </span>
-<span class="text-base lg:text-lg">Predictive analytics for air quality trends</span>
+<span class="text-base lg:text-lg" data-translate="project-airsentinel-feature3">Predictive analytics for air quality trends</span>
 </div>
 </div>
 </div>
@@ -631,8 +632,8 @@ Hệ thống giám sát chất lượng không khí tích hợp với ứng dụ
 <section id="contact" class="py-20">
 <div class="max-w-7xl mx-auto px-6">
 <div class="text-center mb-16">
-<h2 class="text-4xl font-bold text-gray-900 mb-4">Liên hệ với tôi</h2>
-<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+<h2 class="text-4xl font-bold text-gray-900 mb-4" data-translate="contact-title">Liên hệ với tôi</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto" data-translate="contact-subtitle">
 Hãy kết nối để thảo luận về các cơ hội hợp tác và dự án thú vị
 </p>
 </div>
@@ -644,8 +645,8 @@ Hãy kết nối để thảo luận về các cơ hội hợp tác và dự án
 </div>
 <div>
 <h3 class="text-lg font-semibold text-gray-900 mb-2">Email</h3>
-<p class="text-gray-600">namkhanh.trinh@student.nus.edu.sg</p>
-<p class="text-gray-600">trinhnamkhanh.ai@gmail.com</p>
+<p class="text-gray-600">trinhnamkhanh238@gmail.com</p>
+<p class="text-gray-600">Phone: (+84) 342089498</p>
 </div>
 </div>
 <div class="flex items-start space-x-4">
@@ -671,27 +672,27 @@ Hãy kết nối để thảo luận về các cơ hội hợp tác và dự án
 <i class="ri-map-pin-line ri-lg"></i>
 </div>
 <div>
-<h3 class="text-lg font-semibold text-gray-900 mb-2">Vị trí</h3>
-<p class="text-gray-600">Singapore</p>
+<h3 class="text-lg font-semibold text-gray-900 mb-2" data-translate="contact-location">Vị trí</h3>
+<p class="text-gray-600">18A alley 22 Phan Dinh Giot street, Hanoi, Vietnam.</p>
 </div>
 </div>
 </div>
 <div class="bg-gray-50 p-8 rounded-xl">
-<h3 class="text-2xl font-bold text-gray-900 mb-6">Gửi tin nhắn</h3>
+<h3 class="text-2xl font-bold text-gray-900 mb-6" data-translate="contact-send-message">Gửi tin nhắn</h3>
 <form class="space-y-6">
 <div>
-<label class="block text-sm font-medium text-gray-700 mb-2">Họ và tên</label>
-<input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent text-sm" placeholder="Nhập họ và tên">
+<label class="block text-sm font-medium text-gray-700 mb-2" data-translate="contact-form-name">Họ và tên</label>
+<input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent text-sm" placeholder="Nhập họ và tên" data-placeholder="contact-form-placeholder-name">
 </div>
 <div>
-<label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
-<input type="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent text-sm" placeholder="Nhập email của bạn">
+<label class="block text-sm font-medium text-gray-700 mb-2" data-translate="contact-form-email">Email</label>
+<input type="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent text-sm" placeholder="Nhập email của bạn" data-placeholder="contact-form-placeholder-email">
 </div>
 <div>
-<label class="block text-sm font-medium text-gray-700 mb-2">Tin nhắn</label>
-<textarea rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent text-sm" placeholder="Nhập tin nhắn của bạn"></textarea>
+<label class="block text-sm font-medium text-gray-700 mb-2" data-translate="contact-form-message">Tin nhắn</label>
+<textarea rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent text-sm" placeholder="Nhập tin nhắn của bạn" data-placeholder="contact-form-placeholder-message"></textarea>
 </div>
-<button type="submit" class="w-full bg-primary text-white py-3 px-6 rounded-lg hover:bg-blue-600 transition-colors font-medium !rounded-button whitespace-nowrap">
+<button type="submit" class="w-full bg-primary text-white py-3 px-6 rounded-lg hover:bg-blue-600 transition-colors font-medium !rounded-button whitespace-nowrap" data-translate="contact-form-submit">
 Gửi tin nhắn
 </button>
 </form>
@@ -705,7 +706,7 @@ Gửi tin nhắn
 <div class="flex flex-col md:flex-row justify-between items-center">
 <div class="mb-6 md:mb-0">
 <div class="font-['Pacifico'] text-2xl mb-2">Trinh Nam Khanh</div>
-<p class="text-gray-400">Computer Engineering Student & AI Enthusiast</p>
+<p class="text-gray-400" data-translate="footer-tagline">Computer Engineering Student & AI Enthusiast</p>
 </div>
 <div class="flex space-x-6">
 <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors">
@@ -723,7 +724,7 @@ Gửi tin nhắn
 </div>
 </div>
 <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-<p>&copy; 2024 Trinh Nam Khanh. Tất cả quyền được bảo lưu.</p>
+<p>&copy; 2024 Trinh Nam Khanh. <span data-translate="footer-copyright">Tất cả quyền được bảo lưu.</span></p>
 </div>
 </div>
 </footer>
@@ -780,14 +781,218 @@ let isVietnamese = currentLang === 'vi';
 // Language content data
 const content = {
   vi: {
+    // Navigation
+    'nav-home': 'Trang chủ',
+    'nav-about': 'Giới thiệu',
+    'nav-awards': 'Giải thưởng',
+    'nav-education': 'Học tập',
+    'nav-activities': 'Hoạt động',
+    'nav-projects': 'Dự án',
+    'nav-contact': 'Liên hệ',
+    
+    // Hero Section
+    'hero-title': 'Trinh Nam Khanh',
+    'hero-subtitle': 'Mathematics Student & AI Enthusiast',
+    'hero-description': 'Học sinh lớp 12 chuyên Toán tại trường THPT chuyên Hà Nội - Amsterdam, đam mê lập trình và công nghệ AI. Tôi luôn tìm kiếm cơ hội để áp dụng kiến thức toán học vào việc phát triển các giải pháp công nghệ sáng tạo.',
+    'hero-download-cv': 'Tải CV',
+    'hero-contact': 'Liên hệ',
+    
+    // Quick Stats
+    'stats-years': 'Năm học tập',
+    'stats-projects': 'Dự án hoàn thành',
+    'stats-skills': 'Kỹ năng lập trình',
+    'stats-gpa': 'GPA',
+    
+    // About Section
+    'about-title': 'Giới thiệu về tôi',
+    'about-subtitle': 'Hành trình du học và đam mê với công nghệ AI',
+    'about-p1': 'Tôi là Trịnh Nam Khánh, hiện đang là học sinh lớp 12 chuyên Toán tại trường THPT chuyên Hà Nội - Amsterdam. Với niềm đam mê công nghệ từ nhỏ, tôi đã chọn chuyên ngành Toán học để củng cố tư duy logic và kỹ năng giải quyết vấn đề - những nền tảng quan trọng cho lập trình và khoa học máy tính.',
+    'about-p2': 'Trong suốt quá trình học tập, tôi đã tự học và tham gia nhiều dự án về lập trình, AI và Machine Learning. Đặc biệt đam mê với các ứng dụng AI trong đời sống thực tế, tôi luôn tìm cách áp dụng kiến thức toán học vào việc phát triển các giải pháp công nghệ sáng tạo.',
+    'about-p3': 'Ngoài học tập, tôi tích cực tham gia các cuộc thi khoa học công nghệ, hackathon và phát triển các dự án cá nhân để không ngừng trau dồi kỹ năng lập trình và mở rộng hiểu biết về AI technology.',
+    'about-skills-title': 'Kỹ năng kỹ thuật',
+    
+    // Education Section
+    'education-title': 'Hành trình học tập',
+    'education-subtitle': 'Những mốc quan trọng trong quá trình phát triển học thuật',
+    'education-section-title': 'Học vấn',
+    'education-school': 'Hanoi-Amsterdam High School for the Gifted',
+    'education-period': '2019 - 2026',
+    'education-gpa-title': 'Điểm trung bình',
+    'education-gpa-9': 'Điểm trung bình lớp 9:',
+    'education-gpa-10': 'Điểm trung bình lớp 10:',
+    'education-gpa-11': 'Điểm trung bình lớp 11:',
+    'education-cert-title': 'Chứng chỉ quốc tế',
+    'education-ielts': 'IELTS:',
+    'education-sat': 'SAT:',
+    'education-sat-superscore': 'SAT Superscore:',
+    
+    // Research Section
+    'research-title': 'Kinh nghiệm nghiên cứu & Sản phẩm cá nhân',
+    'research-subtitle': 'Các nghiên cứu và sản phẩm độc lập trong lĩnh vực AI và Machine Learning',
+    'research-title-paper': 'Application of Machine Learning Algorithms in Prediction of Hotel Booking Cancellation',
+    'research-desc-paper': 'Nghiên cứu ứng dụng các thuật toán Machine Learning để dự đoán tình trạng hủy đặt phòng khách sạn, góp phần tối ưu hóa doanh thu và quản lý tài nguyên trong ngành du lịch.',
+    
+    // Leadership Section
+    'leadership-title': 'Kinh nghiệm lãnh đạo',
+    'leadership-subtitle': 'Các vị trí lãnh đạo và hoạt động tổ chức',
+    
+    // Social Work Section
+    'social-title': 'Hoạt động xã hội & Tham gia',
+    'social-subtitle': 'Các hoạt động cộng đồng, câu lạc bộ và dự án giáo dục',
+    'activity-tiptoe-title': 'Tiptoe Project 2024',
+    'activity-tiptoe-desc': 'Thành viên Ban Hậu cần, tham gia tổ chức và hỗ trợ logistics cho dự án giáo dục sáng tạo.',
+    'activity-curriculum-title': 'Curriculum Development',
+    'activity-curriculum-desc': 'Tham gia biên soạn giáo trình "Some Topics on Inequalities" cho học sinh chuyên Toán.',
+    'activity-tutoring-title': 'Math Tutoring',
+    'activity-tutoring-desc': 'Tham gia giảng dạy tại trung tâm toán nổi tiếng Hà Nội, hỗ trợ học sinh ôn thi chuyên Toán.',
+    'activity-chess-title': 'Ams Chess Academy',
+    'activity-chess-desc': 'Thành viên Ban Chuyên môn, phụ trách tổ chức các giải đấu và hoạt động đào tạo cờ vua.',
+    'activity-science-title': 'Society of Open Science 2024',
+    'activity-science-desc': 'Thành viên Ban Hậu cần, hỗ trợ tổ chức các hoạt động khoa học mở và workshop công nghệ.',
+    'activity-astronomy-title': 'Amstronomy 2024',
+    'activity-astronomy-desc': 'Thành viên Ban Hậu cần câu lạc bộ thiên văn học, tổ chức các hoạt động quan sát thiên thể.',
+    'activity-gallery-title': 'Amstro\'s Gallery Event',
+    'activity-gallery-desc': 'Thành viên tổ chức sự kiện triển lãm nghệ thuật và khoa học, kết hợp giữa thiên văn học và nghệ thuật thị giác.',
+    'activity-volunteer-title': 'Volunteer Campaign 2025',
+    'activity-volunteer-desc': 'Tham gia chiến dịch tình nguyện tại xã Chế Tạo, Lào Cai, hỗ trợ cộng đồng dân tộc thiểu số với các hoạt động chăm sóc sức khỏe.',
+    'activity-outreach-title': 'Ethnic Minority Outreach',
+    'activity-outreach-desc': 'Thăm hỏi các gia đình, phát thuốc và gói chăm sóc, kiểm tra tình trạng sức khỏe và nâng cao nhận thức về y tế công cộng.',
+    
     // Volunteer Gallery Section
     'volunteer-title': 'Hoạt động thiện nguyện',
-    'volunteer-subtitle': 'Những khoảnh khắc đáng nhớ từ các hoạt động tình nguyện và hỗ trợ cộng đồng'
+    'volunteer-subtitle': 'Những khoảnh khắc đáng nhớ từ các hoạt động tình nguyện và hỗ trợ cộng đồng',
+    
+    // Projects Section
+    'projects-title': 'Dự án cá nhân',
+    'projects-subtitle': 'Các dự án độc lập và sáng tạo cá nhân',
+    'project-airsentinel-desc': 'Hệ thống giám sát chất lượng không khí tích hợp với ứng dụng theo dõi thông minh. Dự án độc lập sử dụng IoT sensors, Machine Learning để phân tích dữ liệu môi trường và cung cấp cảnh báo real-time cho người dùng.',
+    'project-airsentinel-feature1': 'Giám sát chất lượng không khí real-time',
+    'project-airsentinel-feature2': 'Tích hợp ứng dụng di động thông minh',
+    'project-airsentinel-feature3': 'Phân tích dự đoán xu hướng chất lượng không khí',
+    
+    // Contact Section
+    'contact-title': 'Liên hệ với tôi',
+    'contact-subtitle': 'Hãy kết nối để thảo luận về các cơ hội hợp tác và dự án thú vị',
+    'contact-form-name': 'Họ và tên',
+    'contact-form-email': 'Email',
+    'contact-form-message': 'Tin nhắn',
+    'contact-form-placeholder-name': 'Nhập họ và tên',
+    'contact-form-placeholder-email': 'Nhập email của bạn',
+    'contact-form-placeholder-message': 'Nhập tin nhắn của bạn',
+    'contact-form-submit': 'Gửi tin nhắn',
+    'contact-location': 'Vị trí',
+    'contact-send-message': 'Gửi tin nhắn',
+    
+    // Footer
+    'footer-tagline': 'Computer Engineering Student & AI Enthusiast',
+    'footer-copyright': 'Tất cả quyền được bảo lưu.'
   },
   en: {
+    // Navigation
+    'nav-home': 'Home',
+    'nav-about': 'About',
+    'nav-awards': 'Awards',
+    'nav-education': 'Education',
+    'nav-activities': 'Activities',
+    'nav-projects': 'Projects',
+    'nav-contact': 'Contact',
+    
+    // Hero Section
+    'hero-title': 'Trinh Nam Khanh',
+    'hero-subtitle': 'Mathematics Student & AI Enthusiast',
+    'hero-description': 'Grade 12 Mathematics student at Hanoi-Amsterdam High School for the Gifted, passionate about programming and AI technology. I always seek opportunities to apply mathematical knowledge to develop innovative technological solutions.',
+    'hero-download-cv': 'Download CV',
+    'hero-contact': 'Contact',
+    
+    // Quick Stats
+    'stats-years': 'Years of Study',
+    'stats-projects': 'Projects Completed',
+    'stats-skills': 'Programming Skills',
+    'stats-gpa': 'GPA',
+    
+    // About Section
+    'about-title': 'About Me',
+    'about-subtitle': 'Study abroad journey and passion for AI technology',
+    'about-p1': 'I am Trinh Nam Khanh, currently a Grade 12 Mathematics student at Hanoi-Amsterdam High School for the Gifted. With a passion for technology from a young age, I chose Mathematics as my major to strengthen logical thinking and problem-solving skills - important foundations for programming and computer science.',
+    'about-p2': 'Throughout my studies, I have self-taught and participated in many programming, AI and Machine Learning projects. Particularly passionate about AI applications in real life, I always find ways to apply mathematical knowledge to develop innovative technological solutions.',
+    'about-p3': 'Besides studying, I actively participate in science and technology competitions, hackathons and develop personal projects to continuously improve programming skills and expand knowledge about AI technology.',
+    'about-skills-title': 'Technical Skills',
+    
+    // Education Section
+    'education-title': 'Education Journey',
+    'education-subtitle': 'Important milestones in academic development',
+    'education-section-title': 'Education',
+    'education-school': 'Hanoi-Amsterdam High School for the Gifted',
+    'education-period': '2019 - 2026',
+    'education-gpa-title': 'GPA',
+    'education-gpa-9': 'Grade 9 GPA:',
+    'education-gpa-10': 'Grade 10 GPA:',
+    'education-gpa-11': 'Grade 11 GPA:',
+    'education-cert-title': 'International Certificates',
+    'education-ielts': 'IELTS:',
+    'education-sat': 'SAT:',
+    'education-sat-superscore': 'SAT Superscore:',
+    
+    // Research Section
+    'research-title': 'Research Experience & Personal Projects',
+    'research-subtitle': 'Independent research and projects in AI and Machine Learning',
+    'research-title-paper': 'Application of Machine Learning Algorithms in Prediction of Hotel Booking Cancellation',
+    'research-desc-paper': 'Research applying Machine Learning algorithms to predict hotel booking cancellations, contributing to revenue optimization and resource management in the tourism industry.',
+    
+    // Leadership Section
+    'leadership-title': 'Leadership Experience',
+    'leadership-subtitle': 'Leadership positions and organizational activities',
+    
+    // Social Work Section
+    'social-title': 'Social Activities & Involvement',
+    'social-subtitle': 'Community activities, clubs and educational projects',
+    'activity-tiptoe-title': 'Tiptoe Project 2024',
+    'activity-tiptoe-desc': 'Logistics Committee member, organizing and supporting logistics for creative education project.',
+    'activity-curriculum-title': 'Curriculum Development',
+    'activity-curriculum-desc': 'Participated in compiling curriculum "Some Topics on Inequalities" for Mathematics students.',
+    'activity-tutoring-title': 'Math Tutoring',
+    'activity-tutoring-desc': 'Teaching at a renowned Hanoi math center, supporting students preparing for specialized Mathematics exams.',
+    'activity-chess-title': 'Ams Chess Academy',
+    'activity-chess-desc': 'Expertise Committee member, responsible for organizing tournaments and chess training activities.',
+    'activity-science-title': 'Society of Open Science 2024',
+    'activity-science-desc': 'Logistics Committee member, supporting organization of open science activities and technology workshops.',
+    'activity-astronomy-title': 'Amstronomy 2024',
+    'activity-astronomy-desc': 'Logistics Committee member of astronomy club, organizing celestial observation activities.',
+    'activity-gallery-title': 'Amstro\'s Gallery Event',
+    'activity-gallery-desc': 'Event organizer for art and science exhibition, combining astronomy and visual arts.',
+    'activity-volunteer-title': 'Volunteer Campaign 2025',
+    'activity-volunteer-desc': 'Participated in volunteer campaign at Che Tao commune, Lao Cai, supporting ethnic minority communities with healthcare activities.',
+    'activity-outreach-title': 'Ethnic Minority Outreach',
+    'activity-outreach-desc': 'Visiting families, distributing medicine and care packages, checking health status and raising awareness about public health.',
+    
     // Volunteer Gallery Section
     'volunteer-title': 'Volunteer Activities',
-    'volunteer-subtitle': 'Memorable moments from volunteer activities and community support'
+    'volunteer-subtitle': 'Memorable moments from volunteer activities and community support',
+    
+    // Projects Section
+    'projects-title': 'Personal Projects',
+    'projects-subtitle': 'Independent and creative personal projects',
+    'project-airsentinel-desc': 'Air quality monitoring system integrated with smart tracking application. Independent project using IoT sensors and Machine Learning to analyze environmental data and provide real-time alerts to users.',
+    'project-airsentinel-feature1': 'Real-time air quality monitoring',
+    'project-airsentinel-feature2': 'Smart mobile application integration',
+    'project-airsentinel-feature3': 'Predictive analytics for air quality trends',
+    
+    // Contact Section
+    'contact-title': 'Contact Me',
+    'contact-subtitle': 'Connect to discuss collaboration opportunities and interesting projects',
+    'contact-form-name': 'Full Name',
+    'contact-form-email': 'Email',
+    'contact-form-message': 'Message',
+    'contact-form-placeholder-name': 'Enter your full name',
+    'contact-form-placeholder-email': 'Enter your email',
+    'contact-form-placeholder-message': 'Enter your message',
+    'contact-form-submit': 'Send Message',
+    'contact-location': 'Location',
+    'contact-send-message': 'Send Message',
+    
+    // Footer
+    'footer-tagline': 'Computer Engineering Student & AI Enthusiast',
+    'footer-copyright': 'All rights reserved.'
   }
 };
 
